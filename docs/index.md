@@ -1,14 +1,14 @@
 # Mod7 - Files & Exceptions
 **Dev:** *Jeff Nelson*  
 **Date:** *2020-06-02*  
-**Code:** [Assingment07](./Assigment07.py)
+**Code:** [Assingment07](../Assigment07.py)
 
 ## Intro  
 I will go over a few interesting and important items to remember that I learned from this week’s lecture. Lastly, I will show a program that uses pickling to read and write binary files and an example of error handling. 
 
 ## Week 7 Learnings
 This week I learned more about file handling, pickling, and structured error handling. When working with text files you can perform three different types of functions open(), write(), and close(). When the file open function is called you can have it in three different modes, write “w”, read “r” or append “a”. Python allows for a few different ways to read in data from a file. The first function is *readline()*, which reads one line of data and then moves to the next line. 
-![Readline Example](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/Fig%201.jpg "Readline Example")    
+![Readline Example](Fig%201.jpg "Readline Example")    
 *Figure 1: Readline Example*
 
 The next function is *readlines()*, which reads all the lines in a file, and returns a list. This is helpful when you want to read in all your data at one time into a list.    
