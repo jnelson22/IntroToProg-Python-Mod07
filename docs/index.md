@@ -16,7 +16,7 @@ The next function is *readlines()*, which reads all the lines in a file, and ret
 *Figure 2: Readlines Example*
 
 Using loops is a great way to capture data from a file. The for and while loops can both be used to iterate through file. For loop has a nice feature that it will automatically close the file once done.
-![Read File For Loop Example](Fig%203.jpg "Read File For Loop Example")    
+![Read File For Loop Example](Fig%203.jpg "Read File For Loop Example")     
 *Figure 3: Readlines Example*
 
 One other file format is binary. In Python saving to that type is called pickling. Using the pickling function allows you to store data in binary format which obscures the content of the file and can reduce the file’s size. It is important to note that the file is not encrypted but rather obscure. See Figure 4 and https://wiki.python.org/moin/UsingPickle for an example of pickling in Python.    
