@@ -1,6 +1,7 @@
 # Mod7 - Files & Exceptions
 **Dev:** *Jeff Nelson*  
-**Date:** *2020-06-02*
+**Date:** *2020-06-02*  
+**Code:** [Assingment07](./Assigment07.py)
 
 ## Intro  
 I will go over a few interesting and important items to remember that I learned from this week’s lecture. Lastly, I will show a program that uses pickling to read and write binary files and an example of error handling. 
