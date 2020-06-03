@@ -15,7 +15,7 @@ The next function is *readlines()*, which reads all the lines in a file, and ret
 ![Readlines Example](Fig%202.png "Readlines Example")      
 *Figure 2: Readlines Example*
 
-Using loops is a great way to capture data from a file. The for and while loops can both be used to iterate through file. For loop has a nice feature that it will automatically close the file once done.
+Using loops is a great way to capture data from a file. The for and while loops can both be used to iterate through file. For loop has a nice feature that it will automatically close the file once done.   
 ![Read File For Loop Example](Fig%203.jpg "Read File For Loop Example")     
 *Figure 3: Readlines Example*
 
