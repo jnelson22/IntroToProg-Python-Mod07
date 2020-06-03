@@ -12,23 +12,23 @@ This week I learned more about file handling, pickling, and structured error han
 *Figure 1: Readline Example*
 
 The next function is *readlines()*, which reads all the lines in a file, and returns a list. This is helpful when you want to read in all your data at one time into a list.    
-![Readlines Example](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/Fig%202.png "Readlines Example")      
+![Readlines Example](Fig%202.png "Readlines Example")      
 *Figure 2: Readlines Example*
 
 Using loops is a great way to capture data from a file. The for and while loops can both be used to iterate through file. For loop has a nice feature that it will automatically close the file once done.
-![Read File For Loop Example](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/Fig%203.jpg "Read File For Loop Example")    
+![Read File For Loop Example](Fig%203.jpg "Read File For Loop Example")    
 *Figure 3: Readlines Example*
 
 One other file format is binary. In Python saving to that type is called pickling. Using the pickling function allows you to store data in binary format which obscures the content of the file and can reduce the file’s size. It is important to note that the file is not encrypted but rather obscure. See Figure 4 and https://wiki.python.org/moin/UsingPickle for an example of pickling in Python.    
-![Example of Pickle Function](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig%204.png "Example of Pickle Function")    
+![Example of Pickle Function](fig%204.png "Example of Pickle Function")    
 *Figure 4: Example of Pickle Function*
 
 The last topic from this week is structured error handling. In Python, we use try-except to trap errors that the user has caused when using the program. This is good to add to your code whenever you think there might be a human cause error.  
-![Example of Try-Except Error Handling](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig5.png "Example of Try-Except Error Handling")    
+![Example of Try-Except Error Handling](fig5.png "Example of Try-Except Error Handling")    
 *Figure 5: Example of Try-Except Error Handling*
 
 The exception class in Python allows us as programmers the ability to add in custom error messages that make more sense to them than the developer.  You can also create your own custom exception classes.   
-![Example of Custom Error Message Class](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig6.png "Example of Custom Error Message Class")    
+![Example of Custom Error Message Class](fig6.png "Example of Custom Error Message Class")    
 *Figure 6: Example of Try-Except Error Handling*
 
 ## Adding on to To-do List Python Program
@@ -51,11 +51,11 @@ objFile.close()
 Listing 2
 
 Here is an example of what is in the binary once it is read into the programs.   
-![Example of Data Read into Memory from a Binary in PyCharm](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig7.png "Example of Data Read into Memory from a Binary in PyCharm")    
+![Example of Data Read into Memory from a Binary in PyCharm](fig7.png "Example of Data Read into Memory from a Binary in PyCharm")    
 *Figure 7: Example of Data Read into Memory from a Binary in PyCharm*   
 
 Here is what that binary looks like when opened in a text editor.   
-![Screenshot of the Same Data Opened in a Text Editor](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig8.png "Screenshot of the Same Data Opened in a Text Editor")    
+![Screenshot of the Same Data Opened in a Text Editor](fig8.png "Screenshot of the Same Data Opened in a Text Editor")    
 *Figure 8: Screenshot of the Same Data Opened in a Text Editor*     
 
 Last was to add some file error handling. I wanted to make sure the user saw a helpful message when missing the ToDoList.dat file.   
@@ -73,11 +73,11 @@ except Exception as e:
 Listing 3
 
 Here is the error message they receive in PyCharm.    
-![Screenshot of the Error Output in PyCharm](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig9.png "Screenshot of the Error Output in PyCharm")    
+![Screenshot of the Error Output in PyCharm](fig9.png "Screenshot of the Error Output in PyCharm")    
 *Figure 9: Screenshot of the Error Output in PyCharm*     
 
 Here is the error message again but in the command prompt.  
-![Screenshot of the same Error Message in the Command Prompt](https://github.com/jnelson22/IntroToProg-Python-Mod07/blob/master/docs/fig10.png "Screenshot of the same Error Message in the Command Prompt")    
+![Screenshot of the same Error Message in the Command Prompt](fig10.png "Screenshot of the same Error Message in the Command Prompt")    
 *Figure 10: Screenshot of the same Error Message in the Command Prompt*  
 
 ## Summary
